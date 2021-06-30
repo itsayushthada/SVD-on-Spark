@@ -34,6 +34,16 @@ The step to building the cluster is as follows:
     
  + Once the public IPs are generated, services like JupyterLab and the UI server of master and worker nodes can be accessed through it.
 
+## Serivce's Ip/Ports
+
+|Doceker Name      | Ip:Port          |
+| ---------------- |:-----------------|
+| jupyter-lab      | *localhost:8888* |
+| spark-master     | *localhost:8001* |
+| spark-worker-1   | *localhost:8002* |
+| spark-worker-2   | *localhost:8003* |
+
+
 ## Additional Resource
 The main reason to prove the docker file is that if the user wants to add any functionality, it can add to the docker files. But if you want some generic settings, you can use prebuilt images rather than building images from scratch. The images can be pulled from the docker hub instead of building from scratch.
 
