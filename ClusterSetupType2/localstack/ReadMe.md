@@ -1,4 +1,4 @@
-# LocaStack Deployment
+# LocalStack Deployment
 
 It is always a good step to create a namespace before we do anything.
   
